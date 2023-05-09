@@ -19,7 +19,7 @@ from detectron2.engine import hooks
 from detectron2.engine import DefaultTrainer
 
 import sys
-
+import numpy
 register_once = 1
 DEVICE = "0"
 GPU_ORDER = "PCI_BUS_ID"
